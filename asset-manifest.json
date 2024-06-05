@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/tys-sanjay/petside-landing2/static/css/main.be75fec7.css",
+    "main.js": "/tys-sanjay/petside-landing2/static/js/main.1655956c.js",
+    "static/media/petside-logo.png": "/tys-sanjay/petside-landing2/static/media/petside-logo.8666bb52bc8d32453c8e.png",
+    "static/media/img_about.jpg": "/tys-sanjay/petside-landing2/static/media/img_about.96f1dae24eaccb3f6a1c.jpg",
+    "static/media/dog-train.jpg": "/tys-sanjay/petside-landing2/static/media/dog-train.f2b8a023e9fba0294f4f.jpg",
+    "static/media/male-dog.jpg": "/tys-sanjay/petside-landing2/static/media/male-dog.c1da9c4970d5cdb44ff1.jpg",
+    "static/media/sonia.jpg": "/tys-sanjay/petside-landing2/static/media/sonia.9bb8c59018c64738fd6f.jpg",
+    "static/media/grooming.jpg": "/tys-sanjay/petside-landing2/static/media/grooming.fb2fefbf5f006afd0564.jpg",
+    "static/media/Dog-during-vet-visit_resized.jpg": "/tys-sanjay/petside-landing2/static/media/Dog-during-vet-visit_resized.5c0b74bd392d811fde67.jpg",
+    "static/media/bg-what-we-do.jpg": "/tys-sanjay/petside-landing2/static/media/bg-what-we-do.43fa5bd0c1ca6724b49d.jpg",
+    "static/media/amar.jpg": "/tys-sanjay/petside-landing2/static/media/amar.86e3fdd3e2b8933a066f.jpg",
+    "static/media/c3.png": "/tys-sanjay/petside-landing2/static/media/c3.6731561380a680b4e804.png",
+    "static/media/hemant.jpg": "/tys-sanjay/petside-landing2/static/media/hemant.72f65468c01f4012cd31.jpg",
+    "static/media/c1.png": "/tys-sanjay/petside-landing2/static/media/c1.3e52bfd3bc9610898b00.png",
+    "static/media/c2.png": "/tys-sanjay/petside-landing2/static/media/c2.17a7a421ff7a87b5ccb6.png",
+    "static/media/meera.jpg": "/tys-sanjay/petside-landing2/static/media/meera.4c1d5308ec4122f24bdc.jpg",
+    "static/media/dog-walking.jpg": "/tys-sanjay/petside-landing2/static/media/dog-walking.95f7130ea4d55fce8545.jpg",
+    "index.html": "/tys-sanjay/petside-landing2/index.html",
+    "main.be75fec7.css.map": "/tys-sanjay/petside-landing2/static/css/main.be75fec7.css.map",
+    "main.1655956c.js.map": "/tys-sanjay/petside-landing2/static/js/main.1655956c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be75fec7.css",
+    "static/js/main.1655956c.js"
+  ]
+}
