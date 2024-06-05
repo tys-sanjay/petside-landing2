@@ -1,38 +1,242 @@
-.App {
-  text-align: center;
+body{
+  font-family: "Poppins", Sans-serif;
+  color: #000;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.color-weight a{
+ font-weight: 700;
+ color: #000;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.slight-align{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.logo-size{
+  height: 50px;
+  }
+.carousel-height{
+  height: 600px;
+}
+.span-color {
+  font-size: 25px;
+  font-weight: 700;
+}
+.span-color span{
+  color: #23a5c3;
+}
+.carousel-caption2{
+  bottom: 40% !important;
+  /* top: 0 !important;  */
+}
+.agency-container{
+  color: #393d72;
+}
+.agency-heading{
+    font-family: "Poppins", Sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+}
+.text-style svg+h6{
+  font-size: 17px;
+    font-weight: 700;
+    line-height: 1em;
+    letter-spacing: 0px;
+}
+.text-style svg{
+  font-size: 26px;
+    font-weight: 700;
+    line-height: 1em;
+    letter-spacing: 0px;
+    background: #23a5c3;
+    padding: 3px;
+    border-radius: 6px;
+    color:#fff;
 }
 
-.App-link {
-  color: #61dafb;
+.parent-position{
+  position: relative;
+  /* background-image: url('./img/img_bg_mask.png'); */
+ 
 }
+.dm{
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+    -webkit-mask-image: url('./img/img_bg_mask.png');
+    -webkit-mask-size: contain;
+    -webkit-mask-position: center center;
+    -webkit-mask-repeat: no-repeat;
+    transform:  rotate(270deg);
+}
+.dm2{
+  transform: rotate(95deg);
+}
+.card1{
+  background-color: #23A5C3;
+  padding: 1rem;
+  color: #fff;
+  border-radius: 10px;
+  display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.card1 {
+  height: 100%;
+}
+.container-service{
+  background-image: url('./img/bg-what-we-do.jpg');
+  background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.card-img{
+  height: 300px;
+}
+.feedback-flex{
+  display: flex;
+}
+.test-img{
+  height: 400px;
+  width: 400px;
+  padding: 3rem;
+  border-radius: 100px;
+}
+.content{
+  padding: 3rem;
+}
+.content p{
+  font-size: 20px;
+    font-weight: 600;
+    color: #393d72;
+    text-align: justify;
+}
+.popup{
+    width: 600px;
+    height: fit-content;
+    background: #fff;
+    position: fixed;
+    z-index: 13;
+    top: 10%;
+    bottom: 10%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.popup-inner{
+  text-align: end;
+    padding: 1rem 2rem 0;
+
+}
+.close-btn{
+  background: #23a5c3;
+    color: #fff;
+    border: 0;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 10px;
+}
+.certi-style{
+  position: relative;
+  z-index: 10;
+  margin-top: -4rem;
+
+}
+.certi-style img{
+ height: 120px;
+ width: 120px;
+}
+.certi-style h2{
+  font-size: 17px;
+}
+.overlay1{
+  position: relative;
+}
+.overlay2{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #000000b3;
+  top: 0;
+  z-index: 1;
+}
+.carousel-btn{
+  z-index: 3;
+}
+.margins{
+  margin-top: 21px;
+}
+/* .child-position{
+  position: absolute;
+  top:0;
+  left: 0;
+  z-index: 2;
+  
+} */
+@media only screen and (max-width: 1400px) {}
+@media only screen and (max-width: 1200px) {
+  /* .card1{
+    height: 990px;
+  } */
+}
+@media only screen and (max-width: 1024px) {
+  .button-hide{
+    display: none;
   }
-  to {
-    transform: rotate(360deg);
+  .slight-align{
+    justify-content: space-between;
   }
+  /* .card1{
+    height: 700px;
+  } */
+}
+@media only screen and (max-width: 992px) {
+  /* .card1{
+    height: 980px;
+  } */
+}
+@media only screen and (max-width: 768px) {
+  /* .card1{
+    height: 980px;
+  } */
+}
+@media only screen and (max-width: 576px) {
+  .carousel-height {
+    height:auto;
+}
+.carousel-caption2 {
+  bottom: 10% !important;
+  /* top: 0 !important; */
+}
+.span-color {
+  font-size: 16px;
+}
+.card1 {
+  height: auto;
+}
+  .feedback-flex{
+    display: block;
+  }
+  .test-img {
+    width: 100%;
+    padding: 0rem;
+}
+.content{ 
+  padding: 2rem 1rem;
+}
+.popup {
+  width: 100%;
+
+}
+.agency-heading {
+  font-size: 30px;
+}
+.certi-style{
+  position: relative;
+  z-index: 10;
+  margin-top: 0rem;
+
+}
 }
